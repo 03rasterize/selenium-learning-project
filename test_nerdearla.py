@@ -7,7 +7,7 @@ import time
 import os
 
 #------ Suppress all unnecessary logs
-os.environ['WDM_LOG_LEVEL'] = '0'  # I turn off webdriver-manager logs for quick readability purposes.
+os.environ['WDM_LOG_LEVEL'] = '0'  # I turn off logs for quick readability purposes.
 
 chrome_options = Options()
 chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
@@ -22,7 +22,7 @@ driver = webdriver.Chrome(
     service=Service(ChromeDriverManager().install()),
     options=chrome_options
 )
-print('Opening uo the browser...')
+print('Openiing the browser...')
 
 #------- Go to website
 driver.get("https://nerdear.la/")
