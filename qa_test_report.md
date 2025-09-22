@@ -6,7 +6,7 @@
 | Project | Nerdearla Website Automation Test |
 | Test Date | September 22, 2025 |
 | Test Environment | Chrome 117.0, Windows 11, Python 3.9 |
-| Tester | [Your Name] |
+| Tester | --------- |
 | Build Version | 1.0 |
 
 ## Test Scope
