@@ -16,9 +16,13 @@ This project contains a Python script that automates testing of the "Agenda" but
 ## Project Structure
 
 nerdearla-selenium-test/
+
 ├── test_nerdearla.py # Main test script
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # This file
+
 
 ## Future Improvements
 - Implement explicit waits instead of time.sleep()
